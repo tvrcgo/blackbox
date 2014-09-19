@@ -1,0 +1,11 @@
+{  
+   "content_scripts": [ {  
+      "css": ["custom.css"],  
+      "all_frames": true,  
+      "matches": [ "http://*/*", "https://*/*" ]  
+   } ],  
+   "description": "Custom.css",  
+   "name": "Custom CSS",  
+   "version": "1.0",  
+   "manifest_version": 2  
+}
